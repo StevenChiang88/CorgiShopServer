@@ -32,3 +32,5 @@ app.use("/order", orderRoute);
 app.listen(5000, () => {
   console.log("backend is runining");
 });
+
+module.exports = app;
